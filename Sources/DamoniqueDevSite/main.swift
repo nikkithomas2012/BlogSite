@@ -47,7 +47,7 @@ try DamoniqueDevSite().publish(using: [
         .generateHTML(withTheme: .damoniqueDev),
         .generateSiteMap(),
         .installPlugin(.generateCNAME(with: "damonique.dev", "www.damonique.dev")),
-        .deploy(using: .gitHub("nikkithomas2012/BlogSite"))
+        .deploy(using: .gitHub("nikkithomas2012/BlogSite_Output"))
     ])
     
     
